@@ -1,6 +1,6 @@
 # INTEGRACuBe
 
-INTEGRACuBe (INTErlevel data inteGRAtionCuBe) é uma ferramenta desenvolvida na plataforma do Pentaho Data Integration através do framework ETL4LOD+ (https://ufrj.gitbook.io/etl4lod/) com objetivo de aplicar os recursos do vocabulário RDF Data Cube a um conjunto de dados armazenado no \textit{Triplestore}, através de mecanismos semiautomatizados, transformando o grafo tradicional em um grafo multidimensional. 
+INTEGRACuBe (INTErlevel data inteGRAtionCuBe) é uma ferramenta desenvolvida na plataforma do Pentaho Data Integration através do framework ETL4LOD+ (https://ufrj.gitbook.io/etl4lod/) com objetivo de aplicar os recursos do vocabulário RDF Data Cube a um conjunto de dados armazenado no Triplestore, através de mecanismos semiautomatizados, transformando o grafo tradicional em um grafo multidimensional. 
 
 # Detalhes da Ferramenta
 
