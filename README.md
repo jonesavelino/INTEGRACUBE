@@ -6,13 +6,9 @@ INTEGRACuBe (INTErlevel data inteGRAtionCuBe) é uma ferramenta desenvolvida na 
 
 INTEGRACuBe utiliza um metaesquema, mais especificamente os recursos table e tuple, da abordagem INTEGRA (https://github.com/jonesavelino/INTEGRA). Ele foi implementado por meio de um Job, composto por seis Steps que permitem identificar os recursos dimensão e fato a partir do metaesquema do INTEGRA. Em seguida, INTEGRACuBe  realiza o mapeamento das classes do metamodelo RDF Data Cube, até a geração do cubo de dados e sua persistência no Triplestore. A ferramenta INTEGRACuBe utiliza dois mecanismos para persistir o cubo de dados gerado. A primeira utiliza o Openlink Virtuoso (https://virtuoso.openlinksw.com/) para armazenamento dos dados. Já a segunda, gera o cubo de dados no formato NTriples (https://www.w3.org/TR/n-triples/). A exportação do cubo de dados permite que os dados sejam explorados através de ferramentas que adotam o paradigma OLAP com o vocabulário RDF Data Cube. Nesse sentido, INTEGRACuBe utiliza o OpenCube Toolkit (http://opencube-toolkit.eu/) para exploração dos dados. 
 
-# INTEGRA
-INTEGRA é uma solução para integrar dados de fontes heterogêneas baseado em conceitos de interligação e correspondências de dados de diferentes níveis de representação.
-
 # Descrição do Projeto
 
-A abordagem de integração de dados INTEGRA oferce um conjunto de etapas e procedimentos para efetuar a integração de fontes de dados distintas.
-Além de tratar os casos mais básicos de integração de dados, o INTEGRA é capaz de integrar fontes de dados heterogêneas quando a instância de uma das fontes age como descritor na outra fonte.
+A ferramenta INTEGRACuBe oferece um conjunto de passos bem definidos que permitem a adoção do vocabulário RDF Data Cube em grafos RDF. INTEGRACuBe surge para atender a necessidade de análise de dados em grafos RDF utilizando dimensões e fatos. Esse mecanismo é extremamente importante quando há demandas de gestores que realizam análises de dados utilizando mais de uma única dimensão.
 
 # Pré-requisito
 
