@@ -33,3 +33,7 @@ Este projeto possui as seguintes dependências:
 
 # Deploy
 - Executar o comando: mvn clean install
+
+# Publicação de Artigo Científico
+- AVELINO, Jones O.; CORDEIRO, Kelli F.; C. CAVALCANTI, Maria. INTEGRACuBe: Exploração de dados analíticos em RDF. In: SIMPÓSIO BRASILEIRO DE BANCO DE DADOS (SBBD), 36. , 2021, Rio de Janeiro. Anais [...]. Porto Alegre: Sociedade Brasileira de Computação, 2021 . p. 331-336. ISSN 2763-8979. DOI: https://doi.org/10.5753/sbbd.2021.17894. Disponível em: https://sol.sbc.org.br/index.php/sbbd/article/view/17894
+
